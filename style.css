@@ -1,0 +1,127 @@
+  *{
+      padding: 0;
+      margin:0;
+    }
+    #navbarNavDropdown li a {
+      padding-left: 50px;
+     
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+    #brand{
+     
+      font-size: 1.6rem;
+      font-weight: bold;
+      
+    }
+   .header{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+
+
+   }
+   #contact_btn{
+    margin-top: 20px;
+   }
+   #contact_btn a{
+    text-decoration: none;
+    color: white;
+
+    background-color: #d465ef;
+    font-style: 14px;
+    font-weight: 500;
+    border :1px solid transparent;
+    padding:12px 26px;
+   }
+   #contact_btn a:hover{
+    background: linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+   }
+   .center_content{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    transform: translate(-30%,-30%);
+   }
+  .center_content h2{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    z-index: 1;
+
+  }
+    .center_content h3{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    z-index: 1;
+  
+  }
+  #top_header{
+    width: 100%;
+    height: auto;
+    background-color: #e0e0e0;
+  }
+
+  #top_header ul li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+  
+  }
+  #top_header ul li a{
+    text-decoration: none;
+    color: gray;
+   
+  }
+#product {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#getIn ul li {
+  list-style: none;
+  padding: 10px;
+
+}
+#getIn{
+  padding: 30px;
+}
+#icon{
+  color: red;
+  padding-right: 20px;
+  font-size: 20px;
+}
+button{
+  width:120px;
+
+}
+#contact_form{
+    padding:40px;
+}
+#contact_box{
+ 
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#img_contact{
+  padding:40px;
+}
+#footer{
+  width: 100%;
+}
+
+
